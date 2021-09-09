@@ -68,9 +68,6 @@
   width: 70px;
 }
 
-.language-flag:hover {
-}
-
 /* website links */
 .website-container {
   display: flex;
@@ -116,13 +113,14 @@
   margin: 2rem auto;
 }
 
-.sns-container a {
+.sns-link {
   font-size: 1.25rem;
   font-weight: 700;
   margin: 1rem auto;
 }
 
-.fab:hover {
+.fab:hover,
+.fas:hover {
   background: -webkit-linear-gradient(#1950C3, #66B7EB);
   background-clip: text;
   -webkit-background-clip: text;
